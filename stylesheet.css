@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.top-wrapper {
+    padding: 180px 0 210px 0;
+    background-image: url(background.png);
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.btn-wrapper a {
+    color: white;
+}
+
+.aboutMe {
+    background: #F04242;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.myJourney {
+    background-color: rgba(56,179,45,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.contacts {
+    background-color: rgba(83,108,198,1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.btn {
+    padding: 12px 50px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 124px;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+}
+
+.header-right p:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.heading1 {
+    background: #F04242;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.heading1 h2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    text-decoration-line: underline;
+    right: 1159px;
+}
+
+.heading1 p {
+    padding-left: 20px;
+}
+
+.heading1 img {
+    float: right;
+    position: absolute;
+    width: 350px;
+    height: 421px;
+    left: 825px;
+    top: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.text-contents {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading2 {
+    background: rgba(56,179,45,1);
+    height: 1100px;
+    border-radius: 20px;
+}
+
+
+.heading2 h2 {
+    padding-top: 5px;
+    padding-left: 20px;
+    text-decoration-line: underline;
+    right: 1159px;
+}
+
+.heading2 p {
+    padding-left: 20px;
+    align-items: center;
+}
+
+.text-contents img {
+    float: right;
+    position: absolute;
+    width: 20%;
+    left: 860px;
+    top: 1200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer img {
+    width: 125px;
+}
+footer {
+    padding-bottom: 10px;
+    background-color: rgba(34, 49, 52);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.contact-icon img {
+    align-items: center;
+    opacity: 0.8;
+    margin: 0 75px;
+}
+
+.contact-icon img:hover {
+    opacity: 1
+}
+
+#box1 {
+    margin-left: 20px;
+    width: 662px;
+    height: 407px;
+    left: 68px;
+    right: 896px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+#box-school {
+    margin-left: 20px;
+    margin-bottom: 185px;
+    width: 500px;
+    height: 100px;
+    left: 68px;
+    right: 896px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.heading2 h4 {
+    left: 68px;
+    right: 896px;
+    text-align: center;
+    padding-top: 38px;
+}
+.monti img {
+    float: right;
+    position: absolute;
+    width: 20%;
+    left: 860px;
+    top: 1200px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.spensix img {
+    float: right;
+    position: absolute;
+    width: 20%;
+    left: 860px;
+    top: 1440px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.jubel img {
+    float: right;
+    position: absolute;
+    width: 20%;
+    left: 860px;
+    top: 1740px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.unhas img {
+    float: right;
+    position: absolute;
+    width: 20%;
+    left: 860px;
+    top: 2040px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.heading3 h2, p {
+    color: white;
+}
+
+.heading3 h2 {
+    text-decoration-line: underline;
+}
+.heading3 p {
+    text-align: center;
+}
